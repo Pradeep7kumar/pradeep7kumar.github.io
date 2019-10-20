@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <Form method="POST" action="server ka naam">
+        First Name: <input type="text" name="fname"><br>
+        Last Name: <input type="text" name="lname"><br>
+        Birth Date: <input type="date" name = "bday" required><br>
+        Email: <input type="email" name="email"><br>
+        Password: <input type="password" name="pass" minlength="7"> <br>
+        Gender: <br>
+        <input type="radio" value = "Male" name = "Gender">Male <br>
+        <input type="radio" value = "Female" name = "Gender">Female <br>
+        Pets <br>
+        <input type="checkbox" value="Cats" name="pets">Cats<br>
+        <input type="checkbox" value="Dogs" name="dogs">Dogs<br>
+        Cars: <br>
+        <select multiple>
+            <option value="Volvo" name = "Volvo">Volvo</option>
+            <option value="Audi" name = "Audi">Audi</option>
+        </select><br>
+        
+        <input type="submit" value = "Register !">
+        <input type="reset">
+    </Form>
+</body>
+</html>
